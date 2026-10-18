@@ -1,0 +1,15 @@
+{
+  "name": "dev-reader",
+  "description": "Pink Pixel's dev-reader mod for Claude Code",
+  "owner": {
+    "name": "Pink Pixel",
+    "email": "admin@pinkpixel.dev"
+  },
+  "plugins": [
+    {
+      "name": "dev-reader",
+      "source": "./",
+      "description": "Browse and read the latest DEV posts in a pane while Claude works"
+    }
+  ]
+}

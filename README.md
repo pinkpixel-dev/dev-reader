@@ -20,15 +20,27 @@ You need a Claude Code version that supports mods (plugin hooks modules). I buil
 
 ## Installation
 
-Clone the repo somewhere you want to keep it:
+The repo is its own plugin marketplace, so you can install it from inside Claude Code with one command:
+
+```text
+/plugin install dev-reader --marketplace pinkpixel-dev/dev-reader
+```
+
+Claude Code asks whether to add the `pinkpixel-dev/dev-reader` marketplace. Press `y`, then pick a scope: just you, or the project you're in. After that, `/dev` is ready to use.
+
+That one-step install needs Claude Code 2.1.275 or later. On an older version, add the marketplace first and then install from it:
+
+```text
+/plugin marketplace add pinkpixel-dev/dev-reader
+/plugin install dev-reader@dev-reader
+```
+
+### Running from a local clone
+
+If you want to hack on it, clone the repo and point Claude Code at the folder:
 
 ```bash
 git clone https://github.com/pinkpixel-dev/dev-reader.git
-```
-
-Then start Claude Code with the mod loaded:
-
-```bash
 claude --plugin-dir /path/to/dev-reader
 ```
 
