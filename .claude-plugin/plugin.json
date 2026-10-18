@@ -1,0 +1,7 @@
+{
+  "name": "dev-reader",
+  "version": "0.1.0",
+  "description": "Browse and read the latest DEV posts in a pane while Claude works",
+  "author": { "name": "Pink Pixel", "email": "admin@pinkpixel.dev", "url": "https://pinkpixel.dev" },
+  "types": "./types/index.d.ts"
+}
